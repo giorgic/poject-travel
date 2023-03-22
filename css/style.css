@@ -970,6 +970,114 @@ justify-content: space-between;
     cursor: pointer;
 }
 
+/********* footer ***********/
+
+.footer {
+    max-width: 1920px;
+    width: 100%;
+    height: 898px;
+}
+
+.footer-subscribe {
+    width: 1170px;
+    height: 416px;
+    margin: 0 auto;
+    background: #FA7436;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+
+.footer-subscribe > img {
+    
+}
+
+.footer-subscribe-content {
+    width: 708px;
+    height: 256px;
+    margin-top: 80px;
+    margin-right: 128px;
+    
+}
+
+.footer-subscribe-content > h1 {
+    width: 710px;
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.inner-email {
+    width: 674px;
+    height: 68px;
+    margin-top: 64px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=text] {
+    width: 146.67px;
+    height: 34px;
+    padding-left:45px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    color: #999999;
+    background-image: url(../images/email.jpg);
+    background-position: 10px 5px; 
+    background-repeat: no-repeat;
+    transition: width 0.4s ease-in-out;   
+}
+
+input[type=text]:focus {
+    width: 533px;
+}
+
+.inner-email-subscribe{
+    width: 132px;
+    height: 50px;
+    background-color:#fe7f24;
+    margin-right:9px ;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.inner-email-subscribe:hover {
+    background-color: #f89f5f;
+}
+
+.inner-email-subscribe > a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
 
 
 
