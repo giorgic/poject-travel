@@ -1165,7 +1165,6 @@ input[type=text]:focus {
     
 }
 
-
 .footer-content-company {
     width: 140px;
     height: 210px;
@@ -1208,8 +1207,6 @@ input[type=text]:focus {
     color: rgb(3, 3, 194);
 }
 
-
-
 .footer-contact {
     width: 85px;
     height: 168px;
@@ -1249,8 +1246,7 @@ input[type=text]:focus {
     height: 168px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 
 .footer-contact-more > h1 {
