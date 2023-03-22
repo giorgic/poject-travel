@@ -990,9 +990,6 @@ justify-content: space-between;
     
 }
 
-.footer-subscribe > img {
-    
-}
 
 .footer-subscribe-content {
     width: 708px;
@@ -1072,10 +1069,249 @@ input[type=text]:focus {
     color: #FFFFFF;
 }
 
+/******** footer-content ************/
+
+.footer-content {
+    width: 1170px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.footer-content-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content-link{
+    width: 254px;
+    height: 176px;
+    
+}
+
+.footer-content-link > p {
+    margin-top: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #666666;
+}
+
+.footer-content-icon {
+    width: 176px;
+    height: 48px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-icon-fb {
+    width: 48px;
+    height: 48px;
+    background: #f5f5f5;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.img-icon-fb:hover {
+    background-color: #FA7436;
+}
+
+.img-icon-instagram {
+    width: 48px;
+    height: 48px;
+    background: #FA7436;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.img-icon-twiter {
+    width: 48px;
+    height: 48px;
+    background: #f5f5f5;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.img-icon-twiter:hover {
+    background-color: #FA7436;
+}
+
+
+/********* footer-contact*********/
+
+.footer-content-contact {
+    width: 598px;
+    height: 210px;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+
+.footer-content-company {
+    width: 140px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.footer-contact-more {
+    width: 113px;
+    height: 168px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.footer-content-company > h1 {
+    margin-bottom: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+}
+
+.footer-content-company > a {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #666666;
+    transition: .3s;
+}
+
+.footer-content-company > a:hover {
+    color: rgb(3, 3, 194);
+}
 
 
 
+.footer-contact {
+    width: 85px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
 
+.footer-contact > h1 {
+    margin-bottom: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+}
+
+.footer-contact > a {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #666666;
+    transition: .3s;
+}
+
+.footer-contact > a:hover {
+    color: rgb(2, 2, 219);
+}
+
+.footer-contact-more {
+    width: 113px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.footer-contact-more > h1 {
+    margin-bottom: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+}
+
+.footer-contact-more > a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #666666;
+    display: flex;
+    transition: .3s;
+}
+
+.footer-contact-more > a:hover {
+    color: rgb(5, 5, 192);
+}
+
+.footer-border {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid rgba(153, 153, 153, 0.56);
+}
+
+.footer-border-item {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-border-link > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    opacity: 0.8;
+}
+
+.footer-border-inner-link > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    opacity: 0.8;
+}
 
 
 
